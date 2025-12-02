@@ -1,13 +1,111 @@
+<!-- html:5 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test RevoU</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
     <h1>Hello World!!</h1>
     <h2>Ini Yanuar</h2>
-    <h2>Saya ingin belajar untuk menjadi Software Engineer</h2>
+    <h2>Saya ingin belajar<br/> untuk menjadi Software Engineer</h2>
+    <hr/>
+    <p class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-4 bg-red-400">Hello World!</p>
+    <p style="color:blue">Lorem Ipsum</p>
+    <p>test <b>bold</b> font</p>
+    <p>test <i>italics</i> font</p>
+    <p>test <sub>bawah</sub> dan <sup>atas</sup> font</p>
+    <h1>Bullet Point</h1>
+    <ul type="">
+        <!-- unorder list -->
+        <li>Pisang <p>pisang adalah buah</p></li>
+        <li>mangga</li>
+        <!-- list item -->
+    </ul>
+    <h1>Urutan angka</h1>
+    <p>Cara menggunakan vscode</p>
+    <ol type="">
+        <!-- ordered list -->
+        <li>install vscode</li>
+        <li>buka vscode</li>
+    </ol>
+
+    <h1>Tabel</h1>
+    <table border="1">
+        <thead>
+            <!-- table head -->
+             <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+             </tr>
+             <th>head baru</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bruce</td>
+                <td>batman.com</td>
+                <td>Gotham</td>
+            </tr>
+            <tr>
+                <td>Clark</td>
+                <td>Super.com</td>
+                <td>Metropolis</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Gambar</h1>
+    <img src="/images/86_100.jpg" alt="Gambar Pisang" height=""  width="">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Mangga_gedong_gincu_071021-0845_tmo.jpg" alt="gambar Mangga" height="3" width="100">
+    <p>ini adalah link ke  <a href="https://id.wikipedia.org/wiki/Halaman_Utama" target="_blank">wikipedia</a></p>
+    <a href="./second.html" class="text-blue-800">Second HTML</a>
+    <a href="#lorem" class="text-blue-800">Go to Lorem</a>
+
+    <h1>Form Contact</h1>
+    <form action="">
+        <label for="">Nama</label>
+        <input type="text" name="" id="">
+        <br>
+        <label for="">Password</label>
+        <input type="password">
+        <br>
+        <label for="">Umur</label>
+        <input type="number" name="" id="" min="0" max="120">
+        <br>
+        <label for="">Jenis Kelamin</label>
+        <input type="radio" value="male" name="jenis-kelamin">Laki-Laki
+        <input type="radio" value="female" name="jenis-kelamin">Perempuan
+        <br>
+        <label for="">Buah Favorit</label>
+        <select name="" id="">
+            <option value="pisang">pisang</option>
+            <option value="mangga">mangga</option>
+        </select>
+        <br>
+        <label for="">Comment</label>
+        <br>
+        <textarea name="" id="" rows="5" cols="30" placeholder="tulis komentar anda"></textarea>
+        <input type="checkbox">Saya Setuju
+        <input type="submit">
+        <button type="submit">Kirimi</button>
+    </form>
+    <table class="table-auto" >Table Tailwind</table>
+    <thead>
+        <tr>
+            <th>Command</th>
+            <th>Function</th>
+            <th>Alternate</th>
+        </tr>
+
+
+    </thead>
+
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium ipsam reiciendis rem vero quisquam eligendi excepturi, ipsum quasi! Accusantium sunt tempore perspiciatis, odio quam quaerat repellendus velit accusamus doloribus.</p>
 </body>
 </html>
+
+<!-- ctrl+shift+p live preview -->
+ <!-- ctrl / comment -->
